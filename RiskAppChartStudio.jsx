@@ -506,7 +506,7 @@ function ChartPane({ cfg, cryptoSymbols, compact, initial, index, register, hove
   const [all, setAll] = useState([]);
   const [err, setErr] = useState(null);
   const [view, setView] = useState({ count: 130, offset: 0, pCenter: null, pSpan: null });
-  const [showMA, setShowMA] = useState({ ma20: true, ma50: true });
+  const [showMA, setShowMA] = useState({ ma20: false, ma50: false });
   const [q, setQ] = useState(""); const [open, setOpen] = useState(false);
   const [analysis, setAnalysis] = useState(null); const [busy, setBusy] = useState(false); const [aErr, setAErr] = useState(null);
   const boxRef = useRef(null);
