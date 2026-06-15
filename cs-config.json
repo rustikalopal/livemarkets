@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "savedAt": "2026-06-15T22:31:07.937Z",
+  "watchlist": {
+    "groups": [
+      {
+        "id": "g0",
+        "name": "Favoriten",
+        "collapsed": false,
+        "items": [
+          {
+            "s": "^SPX",
+            "market": "stock",
+            "name": ""
+          },
+          {
+            "s": "^IXIC",
+            "market": "stock",
+            "name": ""
+          },
+          {
+            "s": "BTCUSDT",
+            "market": "crypto",
+            "name": ""
+          },
+          {
+            "s": "ETHUSDT",
+            "market": "crypto",
+            "name": ""
+          },
+          {
+            "s": "SOLUSDT",
+            "market": "crypto",
+            "name": ""
+          },
+          {
+            "s": "ADAUSDT",
+            "market": "crypto",
+            "name": ""
+          }
+        ]
+      }
+    ]
+  },
+  "risk": {
+    "equity": 1000,
+    "riskPct": 1,
+    "lev": 5,
+    "fee": 0.05
+  },
+  "layout": 4,
+  "showWl": true,
+  "config": {
+    "model": "claude-sonnet-4-6",
+    "yahooProxy": ""
+  }
+}
