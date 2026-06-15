@@ -14,7 +14,7 @@
   "risk": {
     "equity": 1000,
     "riskPct": 2,
-    "lev": 10,
+    "lev": 5,
     "fee": 0.05
   },
   "layout": 1,
